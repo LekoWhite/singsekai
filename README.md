@@ -1,2 +1,2 @@
-# utaikara
+# singsekai
 A reactJS Karaoke Web App.
