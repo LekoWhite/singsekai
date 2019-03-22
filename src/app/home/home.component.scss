@@ -49,6 +49,20 @@
         animation: pop 0.5s cubic-bezier(0.42, 0, 0.24, 1.44) 1s forwards;
 
     }
+
+    a{
+        color: $dark;
+        font-size: 7em;
+        font-family: $f_manuscript;
+
+        width: 100%;
+        font-style: none;
+        margin-left: 43%;
+        text-align: center;
+
+        transform: scale(0);
+        animation: pop 0.5s cubic-bezier(0.42, 0, 0.24, 1.44) 1s forwards;
+    }
 }
 
 .content { 
