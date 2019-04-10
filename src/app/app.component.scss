@@ -9,6 +9,12 @@
     background-color: $s_light;
 }
 
+app-navbar {
+    z-index: 100000000;
+    width: 100%;
+    position: fixed;
+}
+
 router-outlet{
     display: none;
 }
