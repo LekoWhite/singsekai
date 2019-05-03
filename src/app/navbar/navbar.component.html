@@ -1,7 +1,14 @@
-<nav>
+<nav *ngIf="this.router.url != '/play'; else play_navbar">
   <h1 id="text_logo">Singsekai</h1>
 
-  <a href="home#home">Home</a>
-  <a href="home#features">Features</a>
-  <a href="home#about">About</a>
+  <a href="/#home">Home</a>
+  <a href="/#features">Features</a>
+  <a routerLink="play" id="play_cta">Play</a>
+  <!-- <a href="home#about">About</a> -->
 </nav>
+
+<ng-template #play_navbar>
+  <nav>
+    <a routerLink="/">BACK</a>
+  </nav>
+</ng-template>

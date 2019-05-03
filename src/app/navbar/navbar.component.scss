@@ -34,3 +34,20 @@ nav{
 
     }
 }
+
+#play_cta{
+    text-shadow: 0 0 1px rgba($color: #000000, $alpha: .7);
+    letter-spacing: -.05em;
+    color: $p_text;
+    font-family: $f_primary;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: .1em .3em;
+
+    border-radius: .2em;
+    background-color: $secondary;
+
+    box-shadow: 0 0 1px rgba($color: #000000, $alpha: .7)
+}
